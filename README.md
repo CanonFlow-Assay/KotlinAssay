@@ -52,3 +52,7 @@ Its eight behavior checks cover each validation branch and bounded-price
 totals. Money arithmetic is illustrative and does not guard against Long
 overflow. The lexical scanner and its weaker two-state Pass/Fail receipt were
 not imported. Maven/JDK 25 packaging remains separate from this Java 21 tool.
+
+## License
+
+Licensed under [Apache License 2.0](LICENSE).
