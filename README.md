@@ -36,3 +36,19 @@ Negative cases are created under `build/qualification`; the real Nalan specimen 
 A pass means these named syntax rules and actually executed commands passed over the recorded source snapshot. This prototype does not resolve arbitrary symbols/aliases, infer all effects, prove deep immutability or certify Android alarm/background/Bluetooth behavior. Known call-name checks are conservative and can reject a harmless name. Untested syntax or dependencies must receive review rather than an assumed purity guarantee. The compiler PSI adapter uses a localized opt-in to the pinned compiler's internal/deprecation-marked API.
 
 Reference clones are pinned in [reference-lock.json](reference-lock.json). No upstream repository was changed or published. Zenbridge/Haskell was not found in the searched local material; no project-specific recollection is assumed.
+
+## USB feature selection
+
+The USB Kotlin prototype contributed functional authoring guidance in
+[docs/functional-kotlin.md](docs/functional-kotlin.md) and the order-domain
+example in `examples/order`. The example uses persistent collections and
+top-level sealed outcome cases to fit the existing PSI profile. Run:
+
+```sh
+./kotlin-assay verify examples/order
+```
+
+Its eight behavior checks cover each validation branch and bounded-price
+totals. Money arithmetic is illustrative and does not guard against Long
+overflow. The lexical scanner and its weaker two-state Pass/Fail receipt were
+not imported. Maven/JDK 25 packaging remains separate from this Java 21 tool.

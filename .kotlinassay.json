@@ -6,7 +6,8 @@
   ],
   "boundaryRoots": [
     "src/adapters",
-    "tests"
+    "tests",
+    "examples"
   ],
   "requiredCommands": [
     [
