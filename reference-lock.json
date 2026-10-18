@@ -1,0 +1,62 @@
+{
+  "captured": "2026-10-04",
+  "organizationPublicRepositoryCount": 8,
+  "references": [
+    {
+      "repository": "CSharpAssay",
+      "url": "https://github.com/CanonFlow-Assay/CSharpAssay.git",
+      "commit": "74b05cf2768d2af108a75c1ad973fe08a1e14451",
+      "clean": true
+    },
+    {
+      "repository": "CSharpAssay.Playground",
+      "url": "https://github.com/CanonFlow-Assay/CSharpAssay.Playground.git",
+      "commit": "f0439a6a84bd1cf3d0517a4f9d8938e0be65ca4d",
+      "clean": true
+    },
+    {
+      "repository": "DartAssay",
+      "url": "https://github.com/CanonFlow-Assay/DartAssay.git",
+      "commit": "335795c8b2ad87321df386c7511134822c49156e",
+      "clean": true
+    },
+    {
+      "repository": "FSharpAssay",
+      "url": "https://github.com/CanonFlow-Assay/FSharpAssay.git",
+      "commit": "d89aa3d6fda885c36d68e21be99f75ef281631f2",
+      "clean": true
+    },
+    {
+      "repository": "HTML5Assay",
+      "url": "https://github.com/CanonFlow-Assay/HTML5Assay.git",
+      "commit": "4e8d9e1a2cb2c42133ede9809009dcbd4e08ca98",
+      "clean": true
+    },
+    {
+      "repository": "STEAssay",
+      "url": "https://github.com/CanonFlow-Assay/STEAssay.git",
+      "commit": "d7f7a23668dc24fd2227775830090202f7c04545",
+      "clean": true
+    },
+    {
+      "repository": "TypeScriptAssay",
+      "url": "https://github.com/CanonFlow-Assay/TypeScriptAssay.git",
+      "commit": "d51a37181a731f212eedcdf801087a3cbe29b002",
+      "clean": true
+    },
+    {
+      "repository": "eShop",
+      "url": "https://github.com/CanonFlow-Assay/eShop.git",
+      "commit": "7710803bfb0527c8da4f92023114ec226cb7431a",
+      "clean": true
+    },
+    {
+      "repository": "ai-skills",
+      "url": "https://github.com/arun6202/ai-skills.git",
+      "commit": "d09534c4888890531769251d322a4b27e04ad909",
+      "clean": true
+    }
+  ],
+  "zenbridge": "not found in searched local paths/session material",
+  "html5AssayMain": "qualification workflow only; implementation branches not checked out"
+}

@@ -1,0 +1,114 @@
+{
+  "cases": [
+    {
+      "exitCode": 0,
+      "name": "nalan-domain",
+      "receiptSha256": "0dabf68ea5aacba4c0c2515a99b380201f80c26d5ae3e7b91309cb5a88cff474",
+      "verdict": "Pass"
+    },
+    {
+      "exitCode": 0,
+      "name": "tool-core",
+      "receiptSha256": "428134d25b0a9433364537488f8c4d78ecf617af8672aa5a63c2a14d95e528be",
+      "verdict": "Pass"
+    },
+    {
+      "exitCode": 2,
+      "name": "scan-not-verification",
+      "receiptSha256": "3e17c076f4049339e4ccd990cd423558574be5e031747933a2516492492f31a9",
+      "verdict": "Inconclusive"
+    },
+    {
+      "exitCode": 2,
+      "name": "repeatable-scan",
+      "receiptSha256": "3e17c076f4049339e4ccd990cd423558574be5e031747933a2516492492f31a9",
+      "verdict": "Inconclusive"
+    },
+    {
+      "exitCode": 1,
+      "name": "reject-mutation",
+      "receiptSha256": "95af46e7f9afaa67d6b34fa7dd307a4fba9db2bf3180252199f725571f47fc4f",
+      "verdict": "Fail"
+    },
+    {
+      "exitCode": 1,
+      "name": "reject-oop",
+      "receiptSha256": "05bb60345cd0e1be906ad5b80f998bf0e51f3832b0a2c19d6c5061b8beb1577d",
+      "verdict": "Fail"
+    },
+    {
+      "exitCode": 1,
+      "name": "reject-loop",
+      "receiptSha256": "54c9a390bbe0cfd37d04ab0e125c03ae83c19d775998603f896d42c3a2b518ed",
+      "verdict": "Fail"
+    },
+    {
+      "exitCode": 1,
+      "name": "reject-hidden-effects",
+      "receiptSha256": "e830d028953cb962b8dcc8f068e99d74a6674e74a6b5b5f6559e4266711427d6",
+      "verdict": "Fail"
+    },
+    {
+      "exitCode": 1,
+      "name": "reject-boundary-call",
+      "receiptSha256": "9ec2c9fd2624a6bde9b1e91e9acccc3f652714a80e49f983e9addff6567afef8",
+      "verdict": "Fail"
+    },
+    {
+      "exitCode": 2,
+      "name": "invalid-source-not-pass",
+      "receiptSha256": "3ac36b9b2f48e756e1149c4dcbd2e9accec51e1bc5556bd225f9d64c36a30b83",
+      "verdict": "Inconclusive"
+    },
+    {
+      "exitCode": 2,
+      "name": "unclassified-not-pass",
+      "receiptSha256": "3180b0480d2cd80b859b7f76407418d4a5353fc6745e92f791a3936bf099fd96",
+      "verdict": "Inconclusive"
+    },
+    {
+      "exitCode": 2,
+      "name": "missing-test-not-pass",
+      "receiptSha256": "ae44a351dbfdc3b9a04e6b1547c18decbb4195ae80db4f6710223043fb2cb5f8",
+      "verdict": "Inconclusive"
+    },
+    {
+      "exitCode": 1,
+      "name": "failed-command-fails",
+      "receiptSha256": "460036caa19183c664b4f30031f4840a71fb4334b3aa227f8ae118503be61485",
+      "verdict": "Fail"
+    },
+    {
+      "exitCode": 2,
+      "name": "unavailable-command-not-pass",
+      "receiptSha256": "3a4b8d655fa08405afb26b9ee08a425c2cad64839ea5124a3e9ad3b4fa4837b5",
+      "verdict": "Inconclusive"
+    },
+    {
+      "exitCode": 2,
+      "name": "source-drift-not-pass",
+      "receiptSha256": "9dc85541c3f441e61e0a536dfc601dddd66f5c813abab25b4cd02e8e539cc75b",
+      "verdict": "Inconclusive"
+    },
+    {
+      "exitCode": 3,
+      "name": "invalid-policy-tool-failure",
+      "receiptSha256": "d1e737ab134626e8b5e83e1bd22fd2465ef890671fee6b605ff571a8db3d7341",
+      "verdict": "ToolFailure"
+    },
+    {
+      "exitCode": 2,
+      "name": "missing-policy-not-pass",
+      "receiptSha256": "decd262f8dd253e2a0cf64321fcb941cecb1f0fb68f01bc362fcc36a1b3e3359",
+      "verdict": "Inconclusive"
+    }
+  ],
+  "nonclaims": [
+    "No Android application/device/alarm qualification",
+    "No Bluetooth radio/background qualification",
+    "No Garmin/Tapo history analyzed",
+    "No universal purity or semantic effect proof"
+  ],
+  "scope": "Local strict-syntax profile and synthetic Nalan domain only",
+  "status": "Passed"
+}

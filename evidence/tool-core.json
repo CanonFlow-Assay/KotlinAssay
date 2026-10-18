@@ -1,0 +1,89 @@
+{
+  "authority": "PSI syntax rules plus configured command evidence only",
+  "boundaryPaths": [
+    "src/adapters/Cli.kt",
+    "src/adapters/Parser.kt",
+    "tests/PolicyTests.kt"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "java",
+        "-cp",
+        ".kotlinassay/compiled.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/allopen-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/annotations-13.0.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/assignment-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/compose-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/jklib-compiler.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/jvm-abi-gen.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-annotation-processing-cli.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-annotation-processing-runtime.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-annotation-processing.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-annotations-jvm-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-annotations-jvm.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-compiler.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-daemon-client.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-daemon.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-main-kts.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-metadata-jvm-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-metadata-jvm.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-preloader.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-reflect-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-reflect.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-runner.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-script-runtime-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-script-runtime.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-scripting-common.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-scripting-compiler-impl.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-scripting-compiler.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-scripting-jvm.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-serialization-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-jdk7-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-jdk7.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-jdk8-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-jdk8.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-js-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-js-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-junit-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-junit.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-junit5-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-junit5.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-testng-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-testng.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlinx-coroutines-core-jvm.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlinx-serialization-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/lombok-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/mutability-annotations-compat.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/noarg-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/parcelize-compiler.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/parcelize-runtime.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/power-assert-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/sam-with-receiver-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/scripting-compiler.jar:/home/arun/Developer/toolchains/kotlinx-collections-immutable-jvm-0.4.0.jar:/home/arun/Developer/toolchains/kotlinx-serialization-core-jvm-1.8.1.jar:/home/arun/Developer/toolchains/kotlinx-serialization-json-jvm-1.8.1.jar",
+        "kotlinassay.tests.PolicyTestsKt"
+      ],
+      "exitCode": 0,
+      "outputSha256": "91a58c3604f4e8830afd99511b7f4582dbd8797508651708c573ed534956e240",
+      "status": "Passed"
+    }
+  ],
+  "compilation": {
+    "argv": [
+      "/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/bin/kotlinc",
+      "/home/arun/Developer/CanonFlow-Assay/KotlinAssay/src/adapters/Cli.kt",
+      "/home/arun/Developer/CanonFlow-Assay/KotlinAssay/src/adapters/Parser.kt",
+      "/home/arun/Developer/CanonFlow-Assay/KotlinAssay/src/domain/Policy.kt",
+      "/home/arun/Developer/CanonFlow-Assay/KotlinAssay/tests/PolicyTests.kt",
+      "-classpath",
+      "/home/arun/Developer/CanonFlow-Assay/KotlinAssay/build/kotlin-assay.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/allopen-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/annotations-13.0.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/assignment-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/compose-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/jklib-compiler.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/jvm-abi-gen.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-annotation-processing-cli.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-annotation-processing-runtime.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-annotation-processing.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-annotations-jvm-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-annotations-jvm.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-compiler.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-daemon-client.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-daemon.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-main-kts.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-metadata-jvm-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-metadata-jvm.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-preloader.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-reflect-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-reflect.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-runner.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-script-runtime-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-script-runtime.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-scripting-common.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-scripting-compiler-impl.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-scripting-compiler.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-scripting-jvm.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-serialization-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-jdk7-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-jdk7.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-jdk8-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-jdk8.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-js-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-stdlib.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-js-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-junit-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-junit.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-junit5-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-junit5.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-testng-sources.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test-testng.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlin-test.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlinx-coroutines-core-jvm.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/kotlinx-serialization-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/lombok-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/mutability-annotations-compat.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/noarg-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/parcelize-compiler.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/parcelize-runtime.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/power-assert-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/sam-with-receiver-compiler-plugin.jar:/home/arun/Developer/toolchains/kotlin-2.4.20/kotlinc/lib/scripting-compiler.jar:/home/arun/Developer/toolchains/kotlinx-collections-immutable-jvm-0.4.0.jar:/home/arun/Developer/toolchains/kotlinx-serialization-core-jvm-1.8.1.jar:/home/arun/Developer/toolchains/kotlinx-serialization-json-jvm-1.8.1.jar",
+      "-jvm-target",
+      "21",
+      "-d",
+      "/home/arun/Developer/CanonFlow-Assay/KotlinAssay/.kotlinassay/compiled.jar"
+    ],
+    "exitCode": 0,
+    "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": "Passed"
+  },
+  "compilerVersion": "2.4.20",
+  "domainPaths": [
+    "src/domain/Policy.kt"
+  ],
+  "findings": [],
+  "javaVersion": "21.0.12.1",
+  "mode": "verify",
+  "nonclaims": [
+    "No semantic symbol resolution or universal effect/purity proof",
+    "No arbitrary deep-immutability proof",
+    "Boundary code is not certified pure",
+    "No Android alarm/delivery or health validation"
+  ],
+  "parseComplete": true,
+  "policySha256": "d7e3227cad59e54d602010668fe30347f35d326ed4807f70186ab457a5d039a6",
+  "profile": "strict-syntax/0.1",
+  "rules": [
+    "KFA001",
+    "KFA002",
+    "KFA003",
+    "KFA004",
+    "KFA005",
+    "KFA006",
+    "KFA007",
+    "KFA008",
+    "KFA009",
+    "KFA010",
+    "KFA011",
+    "KFA012",
+    "KFA013",
+    "KFA014",
+    "KFA015",
+    "KFA016",
+    "KFA017",
+    "KFA018"
+  ],
+  "schema": "kotlin-assay-receipt/0.1",
+  "scopeComplete": true,
+  "source": {
+    "src/adapters/Cli.kt": "91c661470a08e7ea6678226f6bf47a41c237d09d742a1c09ff9d1b28ae9c83e2",
+    "src/adapters/Parser.kt": "6ab424213f43050e73d5a95e70c79cb3dd9ce0bb371f4bf391368aab39ba1bd0",
+    "src/domain/Policy.kt": "18121da1c5c05a83663450b37205e26798755e584a6a0061bec8e4ad1adb7ab4",
+    "tests/PolicyTests.kt": "c424d455dd488e30b255220a594efe2b6947fe4f00209d811a9a90f8f84175a5"
+  },
+  "sourceUnchanged": true,
+  "toolJarSha256": "dc8ac4ab1866ba7a0194ee439275c93e658fb446e8e9e67bb487019c7b99adeb",
+  "toolVersion": "0.1.0",
+  "toolchainLockSha256": "8993ecd01cda78aa5977841b856b827577f06f7385599ee8bd8f2eddf3062569",
+  "unclassifiedPaths": [],
+  "verdict": "Pass"
+}
