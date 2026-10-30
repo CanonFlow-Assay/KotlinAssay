@@ -56,3 +56,25 @@ not imported. Maven/JDK 25 packaging remains separate from this Java 21 tool.
 ## License
 
 Licensed under [Apache License 2.0](LICENSE).
+
+## ExpenseGuard playground
+
+The [native ExpenseGuard playground](playground/README.md) adds requirements,
+real baseline/expanded acceptance execution, isolated mutation controls, bounded
+offline investigation advice and source/log freshness checks. Run:
+
+```sh
+python3 playground/run.py --output artifacts/playground/first-run
+```
+
+This experiment is separate from checker authority. Exact runtime pin gaps remain
+Inconclusive even when the experiment completes; survivors remain visible.
+
+## Requirements lifecycle and local archive consumer
+
+The [R6 lifecycle](playground/lifecycle/README.md) freezes the prior12-case
+baseline, retains real Unicode-boundary acceptance failures, executes the repaired
+22-case candidate and an independent locally packed verifier consumer. Run
+`python3 playground/lifecycle/run.py --output ../brainstorm/astra/evidence/native-lifecycle-a-fresh-run`
+under the documented exact SDK environment. Its assessment remains separate
+from checker authority and human release approval.

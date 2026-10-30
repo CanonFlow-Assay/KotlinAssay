@@ -1,0 +1,38 @@
+{
+  "schema": "assay-native-lifecycle/0.1",
+  "oldNamedCases": [
+    "approved",
+    "negative",
+    "over-limit",
+    "currency",
+    "empty-memo",
+    "zero-policy",
+    "zero-amount",
+    "exact-limit",
+    "smallest-amount",
+    "blank-memo",
+    "negative-policy",
+    "large-amount"
+  ],
+  "newNamedCases": [
+    "memo-200-ascii",
+    "memo-201-ascii",
+    "memo-200-astral",
+    "memo-201-astral",
+    "memo-200-combining",
+    "memo-202-combining",
+    "long-blank-precedence",
+    "bad-policy-precedence",
+    "bad-currency-precedence",
+    "bad-amount-precedence"
+  ],
+  "expectedRedFailures": [
+    "memo-201-ascii",
+    "memo-201-astral",
+    "memo-202-combining"
+  ],
+  "language": "Kotlin",
+  "baseCommit": "e62713fdc23002241d8f92e86ac5875a03b59fdc",
+  "domain": "expenseguard/domain/Expense.kt",
+  "harness": "expenseguard/tests/Main.kt"
+}

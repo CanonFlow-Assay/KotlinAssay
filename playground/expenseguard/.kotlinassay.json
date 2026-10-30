@@ -1,0 +1,16 @@
+{
+  "schema": "kotlin-assay-policy/0.1",
+  "profile": "strict-syntax/0.1",
+  "domainRoots": [
+    "domain"
+  ],
+  "boundaryRoots": [
+    "tests"
+  ],
+  "requiredCommands": [
+    [
+      "python3",
+      "run-tests.py"
+    ]
+  ]
+}

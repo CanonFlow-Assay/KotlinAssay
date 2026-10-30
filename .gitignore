@@ -1,3 +1,6 @@
 build/
 .kotlinassay/
 __pycache__/
+
+# Local experiment receipts and Python adapter cache
+artifacts/

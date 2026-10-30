@@ -1,0 +1,19 @@
+{
+  "schema": "expenseguard-frozen-inputs/0.1",
+  "baseCommit": "e62713fdc23002241d8f92e86ac5875a03b59fdc",
+  "files": {
+    "Expense.kt": {
+      "producerPath": "playground/expenseguard/domain/Expense.kt",
+      "sha256": "0bdce8ae8ce99795acd5b238d8d6285395c60b47bd6f61ebf4daf2f24e38b6fc"
+    },
+    "Main.kt": {
+      "producerPath": "playground/expenseguard/tests/Main.kt",
+      "sha256": "77757827fbd7cb43667a348461daebd2c7aa0476d22d7288174449baf9d23d40"
+    },
+    "requirements.json": {
+      "producerPath": "playground/expenseguard/requirements.json",
+      "sha256": "f3f97bbc8d5092e1867b0f00a9850bbee297e2d14dfaefeb33b996b1b7edb2d3"
+    }
+  },
+  "contractSha256": "045c977d1c5a47a3a88ac881e7743d93ead7637b8ccdacf336350ed1f565c186"
+}
