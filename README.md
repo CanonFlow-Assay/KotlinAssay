@@ -78,3 +78,10 @@ baseline, retains real Unicode-boundary acceptance failures, executes the repair
 `python3 playground/lifecycle/run.py --output ../brainstorm/astra/evidence/native-lifecycle-a-fresh-run`
 under the documented exact SDK environment. Its assessment remains separate
 from checker authority and human release approval.
+
+## Estate evidence
+
+Before running the estate ExpenseGuard lane, verify the complete Kotlin
+distribution listed in `toolchain.lock.json`, including the launcher and
+library hashes. The playground also checks the Java version from the
+lock. Keep missing compiler assets visible in the run JSON.
